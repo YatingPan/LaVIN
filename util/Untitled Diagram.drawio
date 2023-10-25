@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T06:52:04.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7AAhsNM5pi_PFWIa4889" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T06:53:08.264Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mUIT7PlBf1EqmKCFLp3V" version="22.0.6" type="github">
   <diagram name="Page-1" id="wo4J1DjW-kXAxptsyJrY">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ERq-meONV3DLg-Fs3HEW-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="560" height="400" as="geometry" />
+        </mxCell>
         <mxCell id="ERq-meONV3DLg-Fs3HEW-7" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="458" y="232" width="213" height="170" as="geometry" />
         </mxCell>
@@ -28,7 +31,7 @@
         <mxCell id="ERq-meONV3DLg-Fs3HEW-11" value="Adapter" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="294" y="181" width="85" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="ERq-meONV3DLg-Fs3HEW-15" value="Bounding Boxes&lt;br&gt;Coordinators&lt;br&gt;&amp;amp;&lt;br&gt;Classes(labels)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ERq-meONV3DLg-Fs3HEW-15" value="Bounding Boxes&lt;br&gt;Coordinators&lt;br&gt;&amp;amp;&lt;br&gt;Classes(labels)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="230" y="264" width="100" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="ERq-meONV3DLg-Fs3HEW-16" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -55,13 +58,13 @@
         <mxCell id="ERq-meONV3DLg-Fs3HEW-20" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="ERq-meONV3DLg-Fs3HEW-17">
           <mxGeometry x="0.8387096774193549" y="71.7983193277311" width="16.89149560117302" height="16.89149560117302" as="geometry" />
         </mxCell>
-        <mxCell id="ERq-meONV3DLg-Fs3HEW-21" value="Visual Features" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ERq-meONV3DLg-Fs3HEW-21" value="Visual Features" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="259" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="ERq-meONV3DLg-Fs3HEW-24" value="Tokenzier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="144" y="335.5" width="90" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="ERq-meONV3DLg-Fs3HEW-30" value="Textual Tokens" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ERq-meONV3DLg-Fs3HEW-30" value="Textual Tokens" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="332" y="420.5" width="115" height="24.5" as="geometry" />
         </mxCell>
         <mxCell id="ERq-meONV3DLg-Fs3HEW-35" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -79,7 +82,7 @@
         <mxCell id="ERq-meONV3DLg-Fs3HEW-39" value="Adapter_Router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="493.5" y="168" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ERq-meONV3DLg-Fs3HEW-50" value="Router Weights" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ERq-meONV3DLg-Fs3HEW-50" value="Router Weights" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="479.45" y="67" width="99.55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="ERq-meONV3DLg-Fs3HEW-51" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -109,10 +112,10 @@
         <mxCell id="ERq-meONV3DLg-Fs3HEW-49" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="ERq-meONV3DLg-Fs3HEW-46">
           <mxGeometry x="-28" y="36" width="16.89149560117302" height="16.89149560117302" as="geometry" />
         </mxCell>
-        <mxCell id="ERq-meONV3DLg-Fs3HEW-52" value="LLaMA2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ERq-meONV3DLg-Fs3HEW-52" value="LLaMA2" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="210" width="91" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="ERq-meONV3DLg-Fs3HEW-53" value="L × Layers" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ERq-meONV3DLg-Fs3HEW-53" value="L × Layers" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="560" y="415.5" width="91" height="22" as="geometry" />
         </mxCell>
         <mxCell id="ERq-meONV3DLg-Fs3HEW-56" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" edge="1" parent="1">
@@ -151,7 +154,7 @@
             <mxPoint x="383" y="199.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ERq-meONV3DLg-Fs3HEW-64" value="Change dimention same to LLM" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="ERq-meONV3DLg-Fs3HEW-64" value="Change dimention same to LLM" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="284" y="82.5" width="105" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="ERq-meONV3DLg-Fs3HEW-65" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;endWidth=9;endSize=5.21;" edge="1" parent="1">
@@ -180,9 +183,6 @@
         </mxCell>
         <mxCell id="ERq-meONV3DLg-Fs3HEW-76" value="Output" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="730" y="273" width="50" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="ERq-meONV3DLg-Fs3HEW-77" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="110" y="70" width="560" height="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
