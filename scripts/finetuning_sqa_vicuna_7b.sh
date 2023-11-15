@@ -1,4 +1,4 @@
-torchrun --nproc_per_node 2 --master_port 12345 --nproc_per_node 2 train.py \
+torchrun --nproc_per_node 6 --master_port 12345 --nproc_per_node 6 /home/user/yatpan/LaVIN/train.py \
     --llm_model 7B\
     --llama_model_path ../data/weights/ \
     --data_path ../data/alpaca_data.json \
@@ -19,7 +19,7 @@ torchrun --nproc_per_node 2 --master_port 12345 --nproc_per_node 2 train.py \
     --visual_adapter_type router\
     --use_vicuna
 
-torchrun --nproc_per_node 1  eval.py \
+torchrun --nproc_per_node 4  /home/user/yatpan/LaVIN/eval.py \
     --ckpt_dir ../data/weights/ \
     --llm_model 7B\
     --tokenizer_path ../data/weights/tokenizer.model \

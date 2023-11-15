@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node 1 --master_port 11111 train.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5 torchrun --nproc_per_node 6 --master_port 11111 /home/user/yatpan/LaVIN/train.py \
     --llm_model 7B\
     --llama_model_path ../data/weights/ \
     --data_path ../data/alpaca_data.json \
@@ -21,7 +21,7 @@ CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node 1 --master_port 11111 train.py 
     --bits 4bit \
     --cpu_load
 
-CUDA_VISIBLE_DEVICES=2 torchrun --nproc_per_node 1  eval.py \
+CUDA_VISIBLE_DEVICES=6,7 torchrun --nproc_per_node 2  /home/user/yatpan/LaVIN/eval.py \
     --ckpt_dir ../data/weights/ \
     --llm_model 7B\
     --tokenizer_path ../data/weights/tokenizer.model \
